@@ -11,7 +11,6 @@ import {
   Modal
 } from 'antd';
 import { 
-  Globe, 
   ExternalLink, 
   Send, 
   User, 
@@ -398,7 +397,7 @@ Rasm: ${capturedImage ? 'Biriktirilgan' : 'Olinmagan'}
           <video 
             ref={videoRef} 
             autoPlay 
-            playsInline 
+            playsInline
             className="live-video" 
           />
           <canvas ref={canvasRef} style={{ display: 'none' }} />
